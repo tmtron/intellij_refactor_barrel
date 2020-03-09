@@ -2,6 +2,11 @@
 
 IntelliJ version: Ultimate 2019.3
 
+The issue is that refactoring does not correctly handle barrel files.  
+IntelliJ issue report: https://youtrack.jetbrains.com/issue/IDEA-234812
+
+In this example we move the file `src/lib-b/test2.ts` (which is in barrel `src/lib-b/index.ts`) to `src/lib-a/` (barrel `src/lib-a/index.ts`).
+
 ## Before refactoring
 ![start](./doc/start.png)
 
