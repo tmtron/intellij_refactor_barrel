@@ -23,3 +23,8 @@ It should be removed from the original barrel `lib-b/index.ts` should now be emp
 The imports should be updated: e.g. in `main.ts`: `import {TEST_1, TEST_2} from "./lib-a";`
 
 ![expected](./doc/expected.png)
+
+
+References:  
+* [SO: "IDE - auto-update imports when moving files between libs/barrels"](
+https://stackoverflow.com/questions/61556751/ide-auto-update-imports-when-moving-files-between-libs-barrels)
